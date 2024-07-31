@@ -1,0 +1,43 @@
+@charset "UTF=8";
+
+body {
+    background-color: #91c4917c;
+}
+
+
+
+h1 {
+    color: #0e220ef1;
+
+}
+
+#principal {
+    background-color: #0b1f0be7;
+    color: white;
+    text-align: center;
+}
+
+#domeio {
+    background-color: #c06fc75d;
+}
+
+.aprendendo {
+    background-color: rgb(200, 204, 161);
+}
+
+.intermediario {
+    color: rgb(108, 116, 44);
+}
+
+.avancado {
+    color: red;
+}
+
+h2 {
+    color: #264d26fa;
+}
+
+
+p {
+    text-align: justify;
+}
