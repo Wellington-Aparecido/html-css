@@ -6,59 +6,104 @@
 
 
 
+
+
 :root {
     --font01: "Passion One", sans-serif;
     --font02: "Sriracha", cursive;
     --font03: verdana, sans-serif;
 }
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
-imagem {
-    width: 100%;
+* {
+  
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
- 
-  
+    padding: 60px;
 }
 
 header h1 {
     font-family: var(--font01);
-    font-size: 3em;
+    font-size: 3.3em;
 }
+
+header p {
+    font-family: var(--font03);
+}
+
 a {
-    color: white;
     text-decoration: none;
-  
+    color: white;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-#img01 {
+.imagem1:hover{
+    height: 98vh;
+}
+
+section {
+    padding-left: 30px;
+ 
+}
+
+
+
+section p {
+    font-family: var(--font02);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+}
+
+.imagem1 
+{
     background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    
+   
+   
+
+
+}
+
+.imagem2 {
+    background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: left center;
+    width: 100%;
+   
+}
+
+.p1 {
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 10px;
+    width: 250px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+
 }
 
 
-.imagem {
-    padding: 50px;
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
-.normal {
-    background-color: white;
-   
- 
-    padding: 50px;
-   
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+
 }
