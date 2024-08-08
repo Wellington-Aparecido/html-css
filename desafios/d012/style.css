@@ -9,101 +9,104 @@
 
 
 :root {
-    --font01: "Passion One", sans-serif;
-    --font02: "Sriracha", cursive;
-    --font03: verdana, sans-serif;
+    --font-h1: "Passion One", sans-serif;
+    --font-texto: "Sriracha", cursive;
+    --font-padrao: verdana, sans-serif;
 }
 
 * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
   
 }
 
 header {
     background-color: black;
     color: white;
+    padding-top: 40px;
     text-align: center;
-    padding: 60px;
 }
 
 header h1 {
-    font-family: var(--font01);
-    font-size: 3.3em;
+    font-family: var(--font-h1);
+    font-size: 10vw;
+    
+}
+
+header p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
 }
 
 header p {
-    font-family: var(--font03);
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+    padding-bottom: 40px;
+    font-family: var(--font-padrao);
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.imagem1:hover{
-    height: 98vh;
-}
-
 section {
+    font-family: var(--font-texto);
     padding-left: 30px;
- 
+    padding: 10vh;
+    
+  
 }
-
-
 
 section p {
-    font-family: var(--font02);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 1.3em;
+    font-size: 3.5vw;
 }
 
-.imagem1 
-{
-    background-image: url('imagens/background001.jpg');
+.imagem {
     background-size: cover;
     background-attachment: fixed;
-    background-position: center right;
     
-   
-   
 
-
-}
-
-.imagem2 {
-    background-image: url('imagens/background002.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
    
 }
 
-.p1 {
-    background-color: rgba(0, 0, 0, 0.26);
-    padding: 10px;
-    width: 250px;
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.301);
     color: white;
-    text-shadow: 1px 1px 1px black;
-
-
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+    padding: 4px;
+   
 }
 
 
+
+section#img1 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+}
 
 footer {
+    text-decoration: none;
     background-color: black;
     color: white;
     text-align: center;
+    padding: 8px;
+    
 }
 
-footer a {
+footer p > a {
+    color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: var(--font-padrao);
 
 }
+
