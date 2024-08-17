@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 10px;
+        }
+        table { 
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 98vw;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .cnome {
+            background-color: rgba(80, 122, 117, 0.685);
+        }
+
+        .cidade {
+            background-color: #0000ff83;
+        }
+
+        .csexo {
+            background-color: #f08080bb;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="csexo" span="2">
+            <col class="ccivil">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Estado Civil</th>
+        </tr>
+        <tr>
+            <td>Wellington Nascimento</td>
+            <td>30</td>
+            <td>M</td>
+            <td>Casado</td>
+        </tr>
+        <tr>
+            <td>Carolaine Matos</td>
+            <td>26</td>
+            <td>F</td>
+            <td>Casada</td>
+        </tr>
+        <tr>
+            <td>João Everton</td>
+            <td>27</td>
+            <td>M</td>
+            <td>Solteiro</td>
+        </tr>
+        <tr>
+            <td>Jaqueline Ariane</td>
+            <td>13</td>
+            <td>F</td>
+            <td>Solteira</td>
+        </tr>
+        <tr>
+            <td>Wellington Nascimento</td>
+            <td>30</td>
+            <td>M</td>
+            <td>Casado</td>
+        </tr>
+        <tr>
+            <td>Carolaine Matos</td>
+            <td>26</td>
+            <td>F</td>
+            <td>Casada</td>
+        </tr>
+        <tr>
+            <td>João Everton</td>
+            <td>27</td>
+            <td>M</td>
+            <td>Solteiro</td>
+        </tr>
+        <tr>
+            <td>Jaqueline Ariane</td>
+            <td>13</td>
+            <td>F</td>
+            <td>Solteira</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
