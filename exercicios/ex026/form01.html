@@ -5,17 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 </head>
+<style>
+    form {
+        background-image: linear-gradient(to right, rgb(13, 30, 85), rgb(199, 76, 6));
+        border: 2px solid black;
+        padding: 10px;
+        width: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+
+  input.enviar {
+    background-color: rgb(22, 161, 80);
+    
+}
+  
+</style>
 <body>
     <h1>Meu primeiro Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="POST" autocomplete="off">
         <p><label for="inome">Nome:</label>
              <input type="text" name="nome" id="nome">
              </p> 
         <p><label for="isobrenome">Sobrenome:  </label>
             <input type="text" name="Sobrenome"  id="sobrenome">
          </p> 
-        <input type="submit" value="Enviar">
-        
+        <input type="submit" value="Enviar" class="enviar">
+
     </form>
 </body>
 </html>
