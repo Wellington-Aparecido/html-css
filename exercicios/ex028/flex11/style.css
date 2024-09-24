@@ -31,6 +31,10 @@ main {
     border-radius: 10px;
 }
 
+nav {
+    display: flex;
+}
+
 nav > a {
     text-decoration: none;
     color: white;
